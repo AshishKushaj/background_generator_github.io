@@ -1,0 +1,12 @@
+h1,h2,h3{
+    text-align: center;
+}
+
+.color{
+    text-align: center;
+}
+
+#gradient{
+    margin: 5em;
+    background: linear-gradient(to right, #EE1122 , #2211EE); /* Standard syntax */
+}
