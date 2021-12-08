@@ -13,5 +13,5 @@ color2.addEventListener("input", addColor);
 function addColor(){
     body.style.background = "linear-gradient(to right, "+ color1.value +" , " + color2.value + ")";
 
-    h3.textContent = body.style.background + ";";
+    h3.textContent = "background: " body.style.background + ";";
 }
